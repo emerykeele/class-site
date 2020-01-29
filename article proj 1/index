@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>HTML Exercise</title>
+  </head>
+
+  <body>
+    <h1>On becoming an artist and calling yourself one</h1>
+    <h2>Editorial manicurist Leanne Woodley on the path that led to her career, balancing your own creative ambitions with those of your client, and why being mentally healthy is the greatest asset for being creative.</h2>
+    <h3>Tell me about your path to becoming a manicurist.</h3>
+    <p>I’ve always been in love with nails. I moved to New York and started working at Saks, and eventually fell into being a stylist’s assistant. That’s how I met Bernadette Thompson, a Black nail tech who has inspired a lot of pop culture and hip-hop culture when it comes to nails, and is known for setting nail art as a focal point. I went home and researched her and was like, “Wow, this is a billion dollar business, and there’s a Black woman thriving in it.”
+    </p>
+
+    <img src="dratini.png" alt="dratini">
+    <a href="https://bulbapedia.bulbagarden.net/wiki/Dratini_(Pok%C3%A9mon)"> investgate further ..</a>
+    <a href="projects/newpage.html">new page</a>
+    <ul>
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+    </ul>
+    </body>
+</html>
