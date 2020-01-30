@@ -22,8 +22,7 @@ body {
 
 .headers{
   color:#75027D
-  font:"Arial Black", Gadget, sans-serif;
-  font-style: normal;
+  font: "Shrikhand", cursive;
 
 }
 
@@ -35,7 +34,7 @@ p{
 }
 
 .animated {
-  font: 100 1em "Arial Black", Gadget, sans-serif;
+  font: 100 1em "Shrikhand", Gadget, cursive;
   font-style: italic;
   animation: myAnimation 3s ease 1s 3 alternate forwards;
 }
