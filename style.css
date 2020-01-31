@@ -1,22 +1,18 @@
 body {
   margin:0;
   padding:0;
-  animation: bgcolor infinite 60s;
+  animation: bgcolor infinite 15s;
   }
 
   @keyframes bgcolor {
   0%
-  {background: #FFBFF7;
-  }
-  25%
-  {background: #EFBFFF;
+  {background: #8AF4FE;
   }
   50%
-  {background: #FFBFE6;}
-  75%
-  {background: #F9DCFB;}
+  {background: #ECB9FF;}
+
   100%
-  {background: #FFBFF7;
+  {background: #8AF4FE;
   }
 }
 
@@ -33,53 +29,6 @@ p{
   margin:0;
 }
 
-.animated {
-  font: 100 1em "Shrikhand", Gadget, cursive;
-  font-style: italic;
-  animation: myAnimation 3s ease 1s 3 alternate forwards;
-}
-
-@keyframes myAnimation {
-  80% {
-    font: 100 3em "Arial Black", Gadget, sans-serif;
-    font-style: italic;
-  }
-  100% {
-    font: 900 2em "Arial Black", Gadget, sans-serif;
-    font-style: italic;
-  }
-}
-
-@keyframes example {
-  0%   {left:0px; top:0px;}
-  25%  {left:200px; top:0px;}
-  50%  {left:-200px; top:0px;}
-  75%  {left:200px; top:0px;}
-  100% {left:0px; top:0px;}
-}
-
-.img {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  animation-name: example;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-
-}
-.img2 {
-  position: relative;
-  animation-name: hah;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-
-  }
-  @keyframes hah {
-    0%   {left:0px; top:0px;}
-    50%  {left:0px; top:-4px;}
-    100% {left:0px; top:0px;}
-  }
-
   a{
     color:black;
     text-decoration: none;
@@ -89,3 +38,17 @@ p{
   a:hover {
     color:red;
   }
+
+  .beat {
+  width: 175px;
+  height: 175px;
+  animation: heartbeat 1.5s alternate infinite ease-in;
+}
+
+  
+
+
+@keyframes heartbeat {
+  0%   {transform: scale(.8);}
+  100% {transform: scale(1.5);}
+}
