@@ -17,8 +17,9 @@ body {
 }
 
 .headers{
-  color:#75027D
-  font: "Shrikhand", cursive;
+  color:#f1042f;
+ font-family: "Tangerine", serif;
+ font-size: 48px
 
 }
 
@@ -45,7 +46,7 @@ p{
   animation: heartbeat 1.5s alternate infinite ease-in;
 }
 
-  
+
 
 
 @keyframes heartbeat {
