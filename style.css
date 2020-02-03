@@ -2,6 +2,7 @@ body {
   margin:0;
   padding:0;
   animation: bgcolor infinite 15s;
+  color:red;
   }
 
   @keyframes bgcolor {
