@@ -6,20 +6,21 @@ body {
 
   @keyframes bgcolor {
   0%
-  {background: #8AF4FE;
+  {background: #d4a8ff;
   }
   50%
-  {background: #ECB9FF;}
+  {background: #ffa3e7;}
 
   100%
-  {background: #8AF4FE;
+  {background: #d4a8ff;
   }
 }
 
 .headers{
-  color:#9f03b0;
+  color:#e1f5ff;
  font-family: "Tangerine", serif;
- font-size: 48px
+ font-size: 48px;
+ text-shadow: 0 0 3px #f4a0fe, 0 0 5px #fcab40;
 
 }
 
