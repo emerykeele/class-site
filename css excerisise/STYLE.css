@@ -1,0 +1,51 @@
+body {
+  margin:0;
+  padding:0;
+
+}
+
+p{
+  color:red;
+  background:green;
+  /* background-image: url("dratini.png"); */
+  /* height: 400px; */
+  /* width: 500px; */
+  /* padding: 20px;
+  margin: 30px; */
+  font-size: 16px;
+  margin:0;
+}
+
+h1 {
+  font-size: 20px;
+  background: yellow;
+  margin:0;
+  padding: 20px 40px 0px 5px;
+  /* right top bottom left */
+  font-weight: normal;
+  font-family: 'times new roman', serif;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+  a{
+    color:black;
+    text-decoration: none;
+  }
+
+
+  a:hover {
+    color:red;
+  }
+
+  img {
+    max-width: 100%;
+    /* width: 200px;
+    height: 500px; */
+  }
+
+  .orange{
+    background:orange
+  }
+
+  #orange

@@ -1,0 +1,34 @@
+body {
+  color:#ad0054;
+  margin:100px;
+  padding:50px;
+
+
+}
+
+p.double {border-style: double;}
+
+p{
+  color:#99637d;
+  /* height: 400px; */
+  /* width: 500px; */
+  /* padding: 20px;
+  margin: 30px; */
+  font-size: 16px;
+  margin:0;
+}
+
+
+
+h1 {
+  border: 4px dotted pink;
+  margin:0;
+  padding: 0px 40px 0px 300px;
+  /* right top bottom left */
+}
+h4 {
+  color:#a8481b
+  margin:0;
+  padding: 0px 40px 0px 300px;
+  /* right top bottom left */
+}
