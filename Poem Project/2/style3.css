@@ -1,0 +1,72 @@
+body {
+  color:#fff9fc;
+  margin:100px;
+  padding:50px;
+  font-family: 'Tangerine', cursive;
+  text-shadow: 1px 1px rgb(0, 51, 150);
+  font-style: normal;
+  background-image: url("Free-Clouds-Timelapse-Stock-loop.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+    /* right top bottom left */
+
+}
+
+.flex{
+  animation: run 20s infinite;
+
+}
+
+p.double {border-style: double;}
+
+p{
+  color:#fff9fc;
+  /* height: 400px; */
+  /* width: 500px; */
+  /* padding: 20px;
+  margin: 30px; */
+  font-size: 30px;
+  margin:0;
+  font-family: 'Pinyon Script', cursive;
+  text-shadow: 1px 1px rgb(0, 51, 150);
+  letter-spacing: 10px;
+}
+
+h1 {
+  border: 4px dotted pink;
+  margin:0;
+  padding: 0px 40px 0px 300px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
+  text-shadow: 1px 1px rgb(0, 51, 150);
+  color: rgb(33, 195, 255);
+  /* right top bottom left */
+}
+
+h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  text-shadow: 1px 1px rgb(0, 51, 150);
+  color: rgb(33, 195, 255);
+  /* right top bottom left */
+
+}
+
+h4 {
+  color:#a8481b;
+  margin:0;
+  padding: 0px 40px 0px 300px;
+  font-family: 'Tangerine', cursive;
+  text-shadow: 1px 1px rgb(0, 51, 150);
+  color: rgb(33, 195, 255);
+  /* right top bottom left */
+}
+
+@keyframes run{
+  0% {
+    transform: translateX(70vw);
+  }
+100% {transform: translateX(-5vw);
+}
+}

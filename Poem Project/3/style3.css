@@ -1,0 +1,76 @@
+body {
+  color:#f4dee8;
+  margin:100px;
+  padding:50px;
+  border: 500px dotted #3106bf;
+  background: rgb(196, 175, 235);
+  background-image: url(cheet.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+p{
+  position: relative;
+  color: rgb(255, 255, 255);
+  /* height: 400px; */
+  /* width: 500px; */
+  /* padding: 20px;
+  margin: 30px; */
+  font-size: 16px;
+  margin:0;
+  padding: 100px 0px 0px 100px;
+  font-family: 'Concert One', cursive;
+  text-shadow: 1px 1px #00c2d5;
+  text-align: center;
+  justify-content: center;
+  animation: fadeIn 1s infinite alternate;
+}
+
+
+@import "compass/css3";
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+}
+
+
+h1 {
+  border: 25px double #3106bf;
+  color: rgb(255, 255, 255);
+  margin:15px;
+  padding: 0px 50px 0px 100px;
+  font-family: 'Fredoka One', cursive;
+  text-shadow: 2px 2px #00c2d5;
+  animation: fadeIn 1s infinite alternate;
+  /* right top bottom left */
+}
+
+h2 {
+  color: #ff9ded;
+  margin:0;
+  padding: 15px 50px 15px 100px;
+  font-family: 'Fredoka One', cursive;
+  text-shadow: 1px 1px #0049ab;
+  animation: fadeIn 1s infinite alternate;
+  /* right top bottom left */
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+  margin:0;
+  padding: 0px 0px 15px 0px;
+  font-family: 'Fredoka One', cursive;
+  text-shadow: 1px 1px #0049ab;
+  animation: fadeIn 1s infinite alternate;
+  /* right top bottom left */
+}
+
+h4 {
+  color:rgb(255, 255, 255);
+  margin:0;
+  padding: 0px 40px 0px 300px;
+  font-family: 'Fredoka One', cursive;
+  animation: fadeIn 1s infinite alternate;
+  /* right top bottom left */
+}

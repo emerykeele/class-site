@@ -1,0 +1,71 @@
+body {
+
+  padding: 1000px 40px 0px 300px;
+  border: 60px outset;
+  box-shadow: 20px 20px #ff0000;
+  -webkit-animation:Border 5s infinite ease-in;
+  color:rgb(201, 224, 255);
+  background-color:rgb(135, 146, 163);
+  margin:100px;
+  padding:50px;
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: bold;
+  line-height: 400px;
+  text-shadow: 1px 1px #5b4c4c;
+
+
+}
+
+
+
+
+p{
+  /* height: 400px; */
+  /* width: 500px; */
+  /* padding: 20px;
+  margin: 30px; */
+  font-size: 16px;
+  margin:0;
+  animation:p 5s infinite ease-in;
+  text-shadow: 1px 1px #ff0000;
+}
+
+
+
+h1 {
+  margin:0;
+  padding: 20px 40px 0px 300px;
+  font-family: 'VT323', monospace;
+  font-size: 50px;
+  animation:h 5s infinite ease-in;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 1px 1px #ff0000;
+  /* right top bottom left */
+}
+h4 {
+  color:#a8481b
+  margin:0;
+  padding: 0px 40px 0px 300px;
+  font-family: 'VT323', monospace;
+  text-shadow: 1px 1px #5b4c4c;
+  /* right top bottom left */
+}
+
+@-webkit-keyframes Border {
+    0% {border-color: rgb(249, 216, 45);}
+    50% {border-color: rgb(255, 212, 29);}
+    100% {border-color: rgb(249, 216, 45);}
+}
+
+@keyframes h {
+    0% {color: rgb(147, 146, 122);}
+    50% {color: orange;}
+    100% {color: rgb(147, 146, 122);}
+  }
+
+@keyframes p{
+        0% {color: rgb(252, 195, 47);}
+        50% {color: goldenrod;}
+        100% {color: rgb(252, 195, 47);}
+      }

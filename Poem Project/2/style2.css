@@ -1,0 +1,48 @@
+body {
+  color:#ad0054;
+  margin:100px;
+  padding:50px;
+  font-family: 'Tangerine', cursive;
+  font-style: normal;
+  
+    /* right top bottom left */
+
+}
+
+p.double {border-style: double;}
+
+p{
+  color:#99637d;
+  /* height: 400px; */
+  /* width: 500px; */
+  /* padding: 20px;
+  margin: 30px; */
+  font-size: 30px;
+  margin:0;
+  font-family: 'Pinyon Script', cursive;
+  letter-spacing: 10px;
+}
+
+h1 {
+  border: 4px dotted pink;
+  margin:0;
+  padding: 0px 40px 0px 300px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
+  /* right top bottom left */
+}
+
+h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  /* right top bottom left */
+
+}
+
+h4 {
+  color:#a8481b
+  margin:0;
+  padding: 0px 40px 0px 300px;
+  font-family: 'Tangerine', cursive;
+  /* right top bottom left */
+}
