@@ -1,0 +1,40 @@
+.hover-img{
+  display:none;
+  /* opacity: 0%; */
+  transition: all 5s:ease;
+}
+
+.hoverme:hover .hover-img{
+  /* opacity:1; */
+  display: block;
+  position: fixed;
+  top: 40%;
+  left: 20%;
+  /* transform:scale(5); */
+}
+
+.btn{
+  padding:30px;
+  background: green;
+  position: fixed;
+  transition: background 2s ease;
+  transform: 3s ease;
+}
+
+.btn-hover:hover{
+  background: red;
+  transform: scale(3);
+
+}
+
+.next-btn{
+  top: 50%;
+  right: 0%;
+  transform: translateY(-50%);
+}
+
+.prev-btn{
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+}
