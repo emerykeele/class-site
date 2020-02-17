@@ -33,13 +33,13 @@ body {
 }
 
   a{
-    color:black;
+    color:#e1f5ff;
     text-decoration: none;
   }
 
 
   a:hover {
-    color:red;
+    color:rgb(168, 87, 232);
   }
 
   .beat {

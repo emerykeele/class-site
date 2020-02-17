@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <title>interaction hw</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+
+    <div class="cursor">
+
+<div>
+  <center>
+ <img src= "cursor.png" class "shadow" width="100px" style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);">
+ </center>
+ </div>
+  </div>
+ <div class="face">
+   <center>
+  <img src= "jello3.png" width="300px">
+  </center>
+  </div>
+
+  <div class="face">
+    <center>
+   <img src= "jello3.png" width="300px">
+   </center>
+   </div>
+
+   <div class="face">
+     <center>
+    <img src= "jello3.png" width="300px">
+    </center>
+    </div>
+
+    <div class="face">
+      <center>
+     <img src= "jello3.png" width="300px">
+     </center>
+     </div>
+
+
+
+    <script>
+ const cursor = document.querySelector('.cursor');
+
+ document.addEventListener('mousemove', e => {
+   cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left:"+(e.pageX - 10)+"px;")
+ })
+
+      </script>
+
+    </body>
+    </html>
