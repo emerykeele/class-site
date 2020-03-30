@@ -1,0 +1,32 @@
+
+body {
+  padding-top: 50px;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(95, 106, 133);
+}
+
+svg {
+   max-width: 100%;
+   max-height: 100%;
+}
+
+.path {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contain {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.contain2 {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}

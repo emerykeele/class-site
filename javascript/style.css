@@ -1,0 +1,46 @@
+body{
+  padding:0px;
+  margin:0px;
+}
+
+
+.button{
+  background-color: green;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+
+}
+
+.button:hover{
+  background: lightgreen;
+
+}
+
+#box {
+  background: black;
+  color: white;
+  position: fixed;
+  height: 100vh;
+  top: 0px;
+  right: -300px;
+  width: 300px;
+  text-align: center;
+  transition: transform 1s ease;
+
+}
+
+.open {
+  transform: translateX(-300px);
+}
+
+.marquee {
+  width: 300px;
+  overflow: hidden;
+  border:1px solid #ccc;
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
