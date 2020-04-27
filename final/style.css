@@ -1,8 +1,11 @@
 body{
   background: rgb(255, 227, 250);
   overflow: hidden;
- height: 100vh;
- width: 100vw;
+  font-family: 'Modak', cursive;
+  font-size: 100px;
+  color: rgb(241, 84, 125);
+  height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,6 +17,49 @@ canvas {
   width: 100%;
   height: 100%;
   z-index: -1;
+}
+
+img{
+  padding: 20px;
+  width: 300px;
+
+}
+
+.title {
+  padding: 20px;
+  font-family: 'Modak', cursive;
+  font-size: 100px;
+  color: rgb(241, 84, 125);
+  text-shadow: 2px 2px 8px #830549;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.boxes {
+  padding: 20px;
+  font-family: 'Modak', cursive;
+  font-size: 10px;
+  color: rgb(241, 84, 125);
+  text-shadow: 2px 2px 8px #830549;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+a:link {
+  color: inherit;
+  text-decoration: none;
+
+}
+a:hover {
+  font-size: 120px;
+  color: inherit;
+  text-decoration: none;
 }
 
 @keyframes flutter-left {
@@ -103,20 +149,6 @@ canvas {
     color: transparentize( $buttonColor,0.8 );
 
   }
-
-.title {
-  width: 50vw;
-  height: 50vh;
-  padding: 20px;
-  font-family: 'Modak', cursive;
-  color: rgb(241, 84, 125);
-  text-shadow: 2px 2px 8px #830549;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: auto;
-}
 
 @keyframes animate {
   0% {
